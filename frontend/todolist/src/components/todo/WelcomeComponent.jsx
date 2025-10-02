@@ -13,6 +13,8 @@ const [message, setMessage] = useState(null);
 
 function callHelloworld(){
        
+
+    
     callHelloworldBean()
         .then( (response)=>successfulResponse(response))
         .catch((error)=>errorResponse(error))
